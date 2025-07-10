@@ -1,0 +1,18 @@
+.nav-style{
+   
+    display: flex;
+    justify-content: space-between;
+    
+}
+h2{
+    color: #4E47FF;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
