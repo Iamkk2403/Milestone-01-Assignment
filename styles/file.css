@@ -2,20 +2,28 @@
    
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
+    padding: 20px 50px;
 }
 h2{
     color: #4E47FF;
+    font-size: 35px;
 }
 .btn-primary{
     background-color: #4E47FF;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     border: none;
-    padding: 15px 40px;
+    padding: 10px 30px;
     border-radius: 7px;
     
+}
+.stay-f{
+    text-align: center;
+    padding: 50px;
+
+
 }
 
 
@@ -30,5 +38,15 @@ h3{
     background-image:url(../Assets/Hero-bg.png);
 
     background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20px;     /* add vertical spacing */
+    min-height: 300px; 
     
+}
+.open-sans-inter {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings:  "wdth" 100;
 }
